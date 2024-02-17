@@ -15,8 +15,8 @@ By inspecting this file I learned that:
 
 1. column number - 986
 2. file size - 11M
-3. word count - 2783
-4. In the header file, I got sample ID in the first column, OTU number in the second, Group information in the forth and rest of the columns are genotype information.
+3. line count - 2783
+4. In the header file, I got sample ID in the first column, OTU number in the second, Group information in the fourth and the rest of the columns are genotype information.
 
 
 ###Attributes of `snp_position.txt`
@@ -32,8 +32,8 @@ By inspecting this file I learned that:
 
 1. column number - 15
 2. file size - 84k
-3. word count - 984
-4. Header, column starts with SNP_ID and rows contain genotype.
+3. line count - 984
+4. The header, column starts with SNP_ID, and rows contain genotype.
 
 ##Data Processing
 
