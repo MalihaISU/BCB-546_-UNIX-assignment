@@ -1,8 +1,6 @@
-## Course Assignments
+ **Data Inspection**: Utilized `awk`, `du`, `wc`, and `grep` to inspect attributes of `fang_et_al_genotypes.txt` and `snp_position.txt`, identifying column counts, file sizes, and contents.
+- **Data Processing for Maize and Teosinte**: Filtered genotype data by groups, transposed, sorted, and joined with SNP position data. Generated multiple files for each species based on SNP positions and chromosome numbers, including handling of unknown and multiple positions.
+- **Chromosome Files Generation**: For both maize and teosinte, produced files for each chromosome, with SNPs ordered by increasing and decreasing positions, and handled missing data with specific symbols.
+- **Output Files**: Created distinct files for SNPs with unknown and multiple positions, and for each chromosome, detailed files with SNPs ordered by position, ensuring data integrity and accessibility for further analysis.
+This README file gives an overview of the workflow, including the types of analyses performed and the output files generated. It's succinct, covering the essential steps and outcomes without delving into the specific command lines provided in the workflow.
 
-A description of files within this folder:
-
-* `UNIX_Assignment.md` and `UNIX_Assignment.pdf`: Instructions for the assignment
-* `UNIX_Assignment_Template.md` and `UNIX_Assignment_Template.pdf`: An example of what your Markdown file should look like when you submit your assignment, including some Markdown syntax that should be helpful for you. The pdf shows how this file is rendered using a tool such as "MacDown"
-* The two files `fang_et_al_genotypes.txt` and `snp_positions.txt` are data files you will be reformatting for the assignment
-* The `transpose.awk` script will be needed to transpose the data (see instructions in `UNIX_Assignment.md`)
